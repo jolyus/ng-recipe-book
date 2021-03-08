@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
+import { MatSidenav } from '@angular/material/sidenav';
+import { ToggleSideBarService } from './core/components/services/sidebar.service';
 
 @Component({
   selector: 'app-root',
